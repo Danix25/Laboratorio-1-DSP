@@ -1,4 +1,6 @@
 # Laboratorio-1-DSP
 Análisis estadístico de las señales
 
-fgsdrftf
+fgsdrftf; 
+
+Hola mundo
