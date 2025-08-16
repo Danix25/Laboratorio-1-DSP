@@ -51,4 +51,40 @@ Señal contaminada
 <img width="921" height="632" alt="image" src="https://github.com/user-attachments/assets/f8b498bf-f0bf-46c7-bf23-ffa2f961d9b3" />
 
 # 5. Conclusiones.
+El  histograma  muestra  la  distribución  de  amplitud  con  una  curvatura  típica  de  las  señales  biomédicas.
+
+ Parte  B  –  Señal  adquirida
+ La  señal  capturada  por  el  generador  de  señales  y  el  osciloscopio  reprodujo  el  patrón  esperado,  a  pesar  de  ligeras
+ Variaciones  de  la  señal  de  la  base  de  datos. 
+ comparables  a  los  de  la  señal  descargada,  lo  que  demuestra  la  consistencia  de  la  metodología.  Sin  embargo,  se  observaron  ligeras  diferencias.
+ Se  observaron  ruidos  atribuibles  al  equipo  de  adquisición  y  al  ruido  ambiental.
+
+ Comparación  A  vs  B
+ El  análisis  comparativo  demostró  que,  a  pesar  de  sus  diferencias  en  el  origen  (base  de  datos  o  señal  adquirida),  la
+ Dos  señales  comparten  propiedades  estadísticas  similares.  Esto  valida  el  uso  de  señales  sintéticas  o  adquiridas.
+ como  representaciones  de  fenómenos  fisiológicos  para  el  aprendizaje  y  análisis  de  DSP  biomédico.
+
+ Parte  C  –  Contaminación  y  relación  señal ruido  (SNR)
+ La  introducción  de  ruido  gaussiano,  impulsivo  y  artefactual  reveló  la  disminución  de  la  relación  señal ruido  (SNR).
+ El  ruido  gaussiano  afectó  la  amplitud  general,  el  ruido  impulsivo  generó  picos  que  distorsionaron  las  estadísticas  y  el  artefacto
+ La  línea/línea  base  alteró  la  forma  de  onda.  Las  mediciones  de  SNR  cuantificaron  estas  diferencias  y
+ demostró  la  vulnerabilidad  de  las  señales  fisiológicas  a  diferentes  tipos  de  contaminación.
+
+ Conclusión  general
+
+ Se  ha  logrado  el  objetivo  de  aplicar  estadística  descriptiva,  adquisición  y  análisis  de  señales  fisiológicas.  La  importancia
+ Se  ha  demostrado  el  preprocesamiento,  la  estimación  de  SNR  y  la  documentación  de  GitHub.
 # 6. Aplicaciones biomédicas
+
+
+ Diagnóstico  médico  asistido  por  computadora  (CAD)
+ El  análisis  estadístico  (media,  desviación  estándar,  curtosis)  permite  detectar  anomalías  en  señales  como  ECG,  EEG  o  EMG.
+ La  curtosis  alta  en  el  EEG  puede  estar  asociada  con  actividad  convulsiva.
+
+ Monitoreo  en  tiempo  real.
+ En  las  unidades  de  cuidados  intensivos,  la  estimación  estadística  rápida  puede  identificar  cambios  repentinos  en  la  frecuencia  cardíaca  o  la  respiración.
+ La  monitorización  de  la  relación  señal ruido  (SNR)  es  esencial  para  garantizar  que  las  alarmas  no  se  activen  por  artefactos  de  ruido.
+
+ Investigación  en  neurociencia  y  rehabilitación.
+ En  EMG  o  EEG,  la  relación  señal ruido  determina  la  detección  de  movimientos  voluntarios  o  motores.
+ intenciones.  Esto  es  esencial  para  prótesis  controladas  neuronalmente  o  sistemas  de  interfaz  cerebrocomputadora.
