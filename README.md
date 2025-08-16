@@ -16,8 +16,40 @@ Además, se estudio la relación señal ruido (SNR), el cual se basa en la relac
 PAOLA TIENES QUE AGREGAR UNA DEFINICIÓN PEQUEÑA DE LOS RUIDOS UTILIZADOS EN LA SEÑAL Y RELACIONARLO CON LO QUE SE HIZO
 
 # 2. Diagrama de flujo.
+
+<img width="708" height="892" alt="image" src="https://github.com/user-attachments/assets/7f2861cd-c260-4066-aa4d-898e1d654db3" />
+
+
 # 3. Adquisición de la señal.
 La señal electrocardiográfica (ECG) fue adquirida primeramente importando una señal en Physionet, para luego mostrar en python la gráfica 
 # 4. Análisis de resultados.
+# Parte A
+Señal importada
+
+<img width="921" height="412" alt="image" src="https://github.com/user-attachments/assets/f6dbc81b-711a-49d6-a593-51effcf6efcc" />
+
+Aplicando las formulas
+
+<img width="921" height="494" alt="image" src="https://github.com/user-attachments/assets/fa330b8e-17af-476b-9b77-e9e44960a0a9" />
+<img width="921" height="525" alt="image" src="https://github.com/user-attachments/assets/3f94a9cf-04fa-4d7a-a00e-c92e68ecf854" />
+
+Aplicando las funciones de código
+
+<img width="921" height="454" alt="image" src="https://github.com/user-attachments/assets/7446cef9-93b5-4d0f-975c-086eadde41fb" />
+<img width="921" height="457" alt="image" src="https://github.com/user-attachments/assets/df43bb42-599d-48ab-a4c6-e67f91dae86b" />
+
+# Parte B
+Señal capturada
+
+<img width="921" height="421" alt="image" src="https://github.com/user-attachments/assets/ef35e52d-b425-498e-8310-a8a35afea10f" />
+calculos:
+<img width="908" height="655" alt="image" src="https://github.com/user-attachments/assets/93d9e76b-bff5-4b12-a6fc-4eb9fce21d9a" />
+<img width="888" height="656" alt="image" src="https://github.com/user-attachments/assets/398a7c7a-f1e2-4fcf-a524-66c3b39f8755" />
+
+# Parte C
+Señal contaminada
+
+<img width="921" height="632" alt="image" src="https://github.com/user-attachments/assets/f8b498bf-f0bf-46c7-bf23-ffa2f961d9b3" />
+
 # 5. Conclusiones.
 # 6. Aplicaciones biomédicas
