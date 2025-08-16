@@ -12,8 +12,7 @@
 
 La presente práctica, tiene como objetivo general el identificar los estadisticos que describen una señal fisiológica y obtenerlos a partir de algoritmos de programación para mostrarlos, empleando técnicas como el cálculo de la media de la señal, la desviación estándar, el coeficiente de variación, histogramas y función de probabilidad. 
 Además, se estudio la relación señal ruido (SNR), el cual se basa en la relación entre la información deseada y la potencia de un ruido de fondo. Esto es un parámetro de medición que se mide en decibelios (dB) y es ampliamente usado en ciencias e ingeniería.
-
-PAOLA TIENES QUE AGREGAR UNA DEFINICIÓN PEQUEÑA DE LOS RUIDOS UTILIZADOS EN LA SEÑAL Y RELACIONARLO CON LO QUE SE HIZO
+Recordemos que histogramas representa el rango de amplitudes de una señal, el coeficiente de variación es la relación entre la desviación estándar y la media; mide la variabilidad relativa.
 
 # 2. Diagrama de flujo.
 
