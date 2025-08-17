@@ -59,7 +59,7 @@ En cuanto a la función de probabilidad, primero se obtuvo una probabilidad de 0
 
 <img width="921" height="421" alt="image" src="https://github.com/user-attachments/assets/ef35e52d-b425-498e-8310-a8a35afea10f" />
 
-Para la señal capturada por el generador de señales fisiológicas se obtuvo una gráfica más idealizada, asumiendo que sus datos serán más exactos. Para esta señal, se obtuvo una media de (VALOR), una desviación de (VALOR), un coeficiente de variación de (VALOR) y una curtosis de (VALOR). Luego de ello, se hizo el histograma y la gráfica de la función de probabilidad, obteniendo los siguiente:
+Para la señal capturada por el generador de señales fisiológicas se obtuvo una gráfica más idealizada, asumiendo que sus datos serán más exactos. Para esta señal, se obtuvo una media de (VALOR), una desviación de (VALOR), un coeficiente de variación de (VALOR) y una curtosis de (VALOR). Luego de ello, se hizo el histograma y la gráfica de la función de probabilidad, obteniendo lo siguiente:
 
 <img width="908" height="655" alt="image" src="https://github.com/user-attachments/assets/93d9e76b-bff5-4b12-a6fc-4eb9fce21d9a" />
 <img width="888" height="656" alt="image" src="https://github.com/user-attachments/assets/398a7c7a-f1e2-4fcf-a524-66c3b39f8755" />
