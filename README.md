@@ -41,12 +41,12 @@ Para la señal importada de 'Physionet', se obtuvo la siguiente señal, corriesp
 
 <img width="921" height="412" alt="image" src="https://github.com/user-attachments/assets/f6dbc81b-711a-49d6-a593-51effcf6efcc" />
 
-Luego de ello, se aplicaron las formulas estadísticas sin usar las funciones pre-escritas por Python, en donde se obtuvo una media de datos de (VALOR), con una desviación de (VALOR), un coeficiente de variación de (VALOR) y una curtosis de (VALOR). Estos valores representan los valores normales para un ECG y para visualizar mejor los datos, se calculó el histograma y la función de probabilidad, obteniendo los siguientes datos.
+Luego de ello, se aplicaron las formulas estadísticas sin usar las funciones pre-escritas por Python, en donde se obtuvo una media de datos de -0.2031, con una desviación de 0.1225, un coeficiente de variación de -0.6030 y una curtosis de 23.7665. Estos valores representan los valores normales para un ECG y para visualizar mejor los datos, se calculó el histograma y la función de probabilidad, obteniendo los siguientes datos.
 
 <img width="921" height="494" alt="image" src="https://github.com/user-attachments/assets/fa330b8e-17af-476b-9b77-e9e44960a0a9" />
 <img width="921" height="525" alt="image" src="https://github.com/user-attachments/assets/3f94a9cf-04fa-4d7a-a00e-c92e68ecf854" />
 
-Para corroborar los datos calculados previamente, se usaron las funciones pre-escritas por Python, en las cuales se evidencia una mayor precisión. Para la media se obtuvo un valor de (VALOR), una desviación de (VALOR), un coeficiente de variación de (VALOR) y una curtosis de (VALOR). En cuanto al histograma y la función de probabilidad se evidenciaron ciertas diferencias con las primeras gráficas obtenidas, siendo estas ultimas mucho más precisas.
+Para corroborar los datos calculados previamente, se usaron las funciones pre-escritas por Python, en las cuales se evidencia una mayor precisión. Para la media se obtuvo un valor de -0.2032, una desviación de 0.1225, un coeficiente de variación de -0.6030 y una curtosis de 20.7665. En cuanto al histograma y la función de probabilidad se evidenciaron ciertas diferencias con las primeras gráficas obtenidas, siendo estas ultimas mucho más precisas.
 
 Para el histograma, en la primera gráfica hubo un pico de frecuencia de 1400 Hz a una amplitud de -0.2 mV. Para la segunda, se obtuvo un pico de 600 Hz a una amplitud próxima de -0.2 mV, ssiendo esta mucho más precisa.
 
@@ -59,18 +59,18 @@ En cuanto a la función de probabilidad, primero se obtuvo una probabilidad de 0
 
 <img width="921" height="421" alt="image" src="https://github.com/user-attachments/assets/ef35e52d-b425-498e-8310-a8a35afea10f" />
 
-Para la señal capturada por el generador de señales fisiológicas se obtuvo una gráfica más idealizada, asumiendo que sus datos serán más exactos. Para esta señal, se obtuvo una media de (VALOR), una desviación de (VALOR), un coeficiente de variación de (VALOR) y una curtosis de (VALOR). Luego de ello, se hizo el histograma y la gráfica de la función de probabilidad, obteniendo lo siguiente:
+Para la señal capturada por el generador de señales fisiológicas se obtuvo una gráfica más idealizada, asumiendo que sus datos serán más exactos. Para esta señal, se obtuvo una media de -0.5453, una desviación de 0.2639, un coeficiente de variación de -0.4840) y una curtosis de 19.1881. Luego de ello, se hizo el histograma y la gráfica de la función de probabilidad, obteniendo lo siguiente:
 
 <img width="908" height="655" alt="image" src="https://github.com/user-attachments/assets/93d9e76b-bff5-4b12-a6fc-4eb9fce21d9a" />
 <img width="888" height="656" alt="image" src="https://github.com/user-attachments/assets/398a7c7a-f1e2-4fcf-a524-66c3b39f8755" />
 
 # Parte C
 
-Por ultimo, con la señal previamente capturada, se le agregaron una serie de ruidos para conocer la relación señal - ruido (SNR). En primer lugar se agregó un ruido gaussiano, el cual se pasa principalmente en agregar valores aleatorios sobre la gráfica, que tienden a agruparse alrededor de un valor medio y por tal razón, se evidencia un ruido sobre los valores medios de la señal.
+Por ultimo, con la señal previamente capturada, se le agregaron una serie de ruidos para conocer la relación señal - ruido (SNR). En primer lugar se agregó un ruido gaussiano, el cual se pasa principalmente en agregar valores aleatorios sobre la gráfica, que tienden a agruparse alrededor de un valor medio y por tal razón, se evidencia un ruido sobre los valores medios de la señal. La relacion señal - ruido (SNR) fue de 15.65 dB
 
-Seguido de esto, se agregó un ruido impulso a la señal original, basado principalmente en picos repentinos y que se caracterizan principalmente por tener  una amplitud alta, en comparación con la señal original. Por esto, se evidencia en la gráfica mucho ruido y con gran dificultad para interpretar la señal original.
+Seguido de esto, se agregó un ruido impulso a la señal original, basado principalmente en picos repentinos y que se caracterizan principalmente por tener  una amplitud alta, en comparación con la señal original. Por esto, se evidencia en la gráfica mucho ruido y con gran dificultad para interpretar la señal original. El SNR para esta señal fue de 9.63 dB
 
-Finalmente, se agrega un ruido de tipo artefacto a la señal original, la cual consiste en la manifestación de ondulaciones regulares a una frecuencia de línea. Dicho ruido se puede ver en la señal, ya que se evidencias ciertas ondulaciones sobre ella.
+Finalmente, se agrega un ruido de tipo artefacto a la señal original, la cual consiste en la manifestación de ondulaciones regulares a una frecuencia de línea. Dicho ruido se puede ver en la señal, ya que se evidencias ciertas ondulaciones sobre ella y con un SNR de 12.93 dB
 
 <img width="921" height="632" alt="image" src="https://github.com/user-attachments/assets/f8b498bf-f0bf-46c7-bf23-ffa2f961d9b3" />
 
