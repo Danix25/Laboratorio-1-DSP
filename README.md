@@ -75,6 +75,23 @@ Finalmente, se agrega un ruido de tipo artefacto a la señal original, la cual c
 <img width="921" height="632" alt="image" src="https://github.com/user-attachments/assets/f8b498bf-f0bf-46c7-bf23-ffa2f961d9b3" />
 
 # 5. Conclusiones.
+
+Parte A – Señal descargada
+La señal fisiológica importada physionet permitió calcular estadísticos descriptivos que reflejan sus características fundamentales. La media y desviación estándar fueron consistentes entre el cálculo de la programación de  las formulas desde cero; y las librerías, validando la implementación. El histograma mostraron la distribución de amplitudes con una curtosis propia de señales.
+
+Parte B – Señal adquirida
+La señal capturada por medio del generador de señales y el osciloscopio reprodujo el patrón esperado, aunque presentó ligeras variaciones respecto a la señal de base de datos. Los estadísticos descriptivos de la señal propia fueron comparables a los de la señal descargada, evidenciando coherencia en la metodología. No obstante, se observaron pequeñas diferencias atribuibles al hardware de adquisición y al ruido intrínseco del entorno.
+
+Comparación A vs B
+El análisis comparativo demostró que, pese a las diferencias en origen, ambas señales comparten propiedades estadísticas similares. Esto valida la práctica de usar señales sintéticas o adquiridas como representaciones de fenómenos fisiológicos para el aprendizaje y análisis de DSP biomédico.
+
+Parte C – Contaminación y SNR
+La introducción de ruido gaussiano, impulsivo y artefactos permitió evidenciar cómo disminuye la relación señal-ruido (SNR). El ruido gaussiano afectó de manera global la amplitud, el impulsivo generó picos que distorsionan los estadísticos, y el artefacto de línea desplazó la forma de onda. La medición de SNR cuantificó estas diferencias y evidenció la vulnerabilidad de las señales fisiológicas a distintos tipos de contaminación.
+
+Conclusión general
+Se cumplió el objetivo de aplicar estadística descriptiva, adquisición y análisis de señales fisiológicas. Se comprobó la importancia del preprocesamiento, la estimación de SNR y la documentación en GitHub.
+
+
 # 6. Aplicaciones biomédicas
 El calculo de valores estadísticos en señales fisiológicas, son muy útiles para su análisis, ya que nos permiten extraer información para entender el comportamiento y distribución de las señales. Esto se puede evidenciar en los siguiente casos:
 
