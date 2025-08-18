@@ -118,8 +118,7 @@ Parte C – Contaminación y SNR
 La introducción de ruido gaussiano, impulsivo y artefactos permitió evidenciar cómo disminuye la relación señal-ruido (SNR). El ruido gaussiano afectó de manera global la amplitud, el impulsivo generó picos que distorsionan los estadísticos, y el artefacto de línea desplazó la forma de onda. La medición de SNR cuantificó estas diferencias y evidenció la vulnerabilidad de las señales fisiológicas a distintos tipos de contaminación.
 
 Conclusión general
-Se cumplió el objetivo de aplicar estadística descriptiva, adquisición y análisis de señales fisiológicas. Se comprobó la importancia del preprocesamiento, la estimación de SNR y la documentación en GitHub.
-
+Este laboratorio demostró que el procesamiento estadístico básico media, desviación e  histogramas es la base para interpretar señales fisiológicas. Sin embargo, herramientas avanzadas (FFT, filtros) y librerías especializadas de Python son indispensables para análisis confiables en aplicaciones biomédicas.
 
 # 6. Aplicaciones biomédicas
 El calculo de valores estadísticos en señales fisiológicas, son muy útiles para su análisis, ya que nos permiten extraer información para entender el comportamiento y distribución de las señales. Esto se puede evidenciar en los siguiente casos:
