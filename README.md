@@ -20,7 +20,48 @@ Recordemos que histogramas representa el rango de amplitudes de una señal, el c
 
 
 # 3. Adquisición de la señal.
-La señal electrocardiográfica (ECG) fue adquirida primeramente importando una señal en Physionet, para luego mostrar en python la gráfica 
+La señal electrocardiográfica (ECG) fue adquirida primeramente importando una señal en Physionet, para luego mostrar en python la gráfica.
+
+Se utilizo  un Arduino Uno para adquirir una señal analógica acondicionada por un circuito de polarización y filtro paso alto, compuesto por resistencias de 12 kΩ y un capacitor de 22 µF.
+
+Materiales Utilizados
+- Arduino Uno  
+- Protoboard  
+- 2 resistencias de 12 kΩ  
+- 1 capacitor electrolítico de 22 µF  
+- Cables 
+- Fuente de señal
+
+Montaje en Protoboard
+El circuito se montó como se muestra en la siguiente imagen
+
+![WhatsApp Image 2025-08-19 at 6 54 56 PM](https://github.com/user-attachments/assets/cd031956-524c-497b-b494-8d72f48b39a6)
+
+ Simulación Simple  
+Se realizó una simulación del circuito en la aplicacion proto
+
+ 
+![WhatsApp Image 2025-08-19 at 6 38 29 PM](https://github.com/user-attachments/assets/575b05b4-7a55-4609-80f9-35aecca53481)
+
+Código Utilizado  
+
+Se utilizó el siguiente código en el Arduino para leer la señal y enviarla a la computadora:  
+```cpp
+void setup() {
+  Serial.begin(2000000);
+}
+
+void loop() {
+  int sensorValue = analogRead(A0);
+  
+  Serial.println(sensorValue);
+  
+  delay(1);
+}
+```
+
+
+
 # 4. Análisis de resultados.
 # Parte A
 Señal importada
