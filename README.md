@@ -49,9 +49,10 @@ calculos:
 Señal contaminada
 
 <img width="921" height="632" alt="image" src="https://github.com/user-attachments/assets/f8b498bf-f0bf-46c7-bf23-ffa2f961d9b3" />
+Podemos ver  el ruido gausiano es un tipo de interfernecia estatica que afecta a toda la señal o es ruido aleatorio y normalmente sigue la curva gaussiana conocida como la curva de campana,  en el ruido impulsivo son interferencias que son rapidas y de forma "inesperadas" y se puede comparar como si fueran salpicadoras y por ultimo el tipo artefacto  se observa como una patron ondulatorio el  cual se puede ver en la imagen donde sube y baja en forma senoidal.
 
 # 5. Conclusiones.
-El  histograma  muestra  la  distribución  de  amplitud  con  una  curvatura  típica  de  las  señales  biomédicas.
+El  histograma  muestra  la  distribución  de  amplitud  con  una  curvatura  típica  de  las  señales.
 
  Parte  B  –  Señal  adquirida
  La  señal  capturada  por  el  generador  de  señales  y  el  osciloscopio  reprodujo  el  patrón  esperado,  a  pesar  de  ligeras
@@ -61,8 +62,7 @@ El  histograma  muestra  la  distribución  de  amplitud  con  una  curvatura  t
 
  Comparación  A  vs  B
  El  análisis  comparativo  demostró  que,  a  pesar  de  sus  diferencias  en  el  origen  (base  de  datos  o  señal  adquirida),  la
- Dos  señales  comparten  propiedades  estadísticas  similares.  Esto  valida  el  uso  de  señales  sintéticas  o  adquiridas.
- como  representaciones  de  fenómenos  fisiológicos  para  el  aprendizaje  y  análisis  de  DSP  biomédico.
+ Dos  señales  comparten  propiedades  estadísticas  similares.
 
  Parte  C  –  Contaminación  y  relación  señal ruido  (SNR)
  La  introducción  de  ruido  gaussiano,  impulsivo  y  artefactual  reveló  la  disminución  de  la  relación  señal ruido  (SNR).
