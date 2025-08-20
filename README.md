@@ -31,7 +31,8 @@ Parte C
 
 
 # 3. Adquisición de la señal.
-La señal electrocardiográfica (ECG) fue adquirida primeramente importando una señal de 'Physionet' en python, para luego graficar sus datos y obtener sus valores estadísticos. En segundo lugar, se capturó la señal en tiempo real, usando un generador de señale fisiológicas para luego guardarla en un archivo de texto e importarla al programa de código.4
+La señal electrocardiográfica (ECG) fue adquirida primeramente importando una señal de 'Physionet' en python, para luego graficar sus datos y obtener sus valores estadísticos. En segundo lugar, se capturó la señal en tiempo real, usando un generador de señale fisiológicas para luego guardarla en un archivo de texto e importarla al programa de código.
+
 Materiales Utilizados
 - Arduino Uno  
 - Protoboard  
