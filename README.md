@@ -31,7 +31,44 @@ Parte C
 
 
 # 3. Adquisición de la señal.
-La señal electrocardiográfica (ECG) fue adquirida primeramente importando una señal de 'Physionet' en python, para luego graficar sus datos y obtener sus valores estadísticos. En segundo lugar, se capturó la señal en tiempo real, usando un generador de señale fisiológicas para luego guardarla en un archivo de texto e importarla al programa de código.
+La señal electrocardiográfica (ECG) fue adquirida primeramente importando una señal de 'Physionet' en python, para luego graficar sus datos y obtener sus valores estadísticos. En segundo lugar, se capturó la señal en tiempo real, usando un generador de señale fisiológicas para luego guardarla en un archivo de texto e importarla al programa de código.4
+Materiales Utilizados
+- Arduino Uno  
+- Protoboard  
+- 2 resistencias de 12 kΩ  
+- 1 capacitor electrolítico de 22 µF  
+- Cables 
+- Fuente de señal
+
+Montaje en Protoboard
+El circuito se montó como se muestra en la siguiente imagen
+
+![WhatsApp Image 2025-08-19 at 6 54 56 PM](https://github.com/user-attachments/assets/cd031956-524c-497b-b494-8d72f48b39a6)
+
+ Simulación Simple  
+Se realizó una simulación del circuito en la aplicacion proto
+
+ 
+![WhatsApp Image 2025-08-19 at 6 38 29 PM](https://github.com/user-attachments/assets/575b05b4-7a55-4609-80f9-35aecca53481)
+
+Código Utilizado  
+
+Se utilizó el siguiente código en el Arduino para leer la señal y enviarla a la computadora:  
+```cpp
+void setup() {
+  Serial.begin(2000000);
+}
+
+void loop() {
+  int sensorValue = analogRead(A0);
+  
+  Serial.println(sensorValue);
+  
+  delay(1);
+}
+```
+![Uploading WhatsApp Image 2025-08-19 at 6.54.56 PM.jpeg…]()
+
 
 # 4. Análisis de resultados.
 
@@ -103,6 +140,7 @@ Seguido de esto, se agregó un ruido impulso a la señal original, basado princi
 Finalmente, se agrega un ruido de tipo artefacto a la señal original, la cual consiste en la manifestación de ondulaciones regulares a una frecuencia de línea. Dicho ruido se puede ver en la señal, ya que se evidencias ciertas ondulaciones sobre ella y con un SNR de 12.93 dB
 
 <img width="921" height="632" alt="image" src="https://github.com/user-attachments/assets/f8b498bf-f0bf-46c7-bf23-ffa2f961d9b3" />
+Podemos ver el ruido gausiano es un tipo de interferencia estática que afecta a toda la señal o es ruido aleatorio y normalmente sigue la curva gaussiana conocida como la curva de campana, en el ruido impulsivo son interferencias que son rápidas y de forma "inesperadas" y se puede comparar como si fueran salpicadoras y por ultimo el tipo artefacto se observa como un patrón ondulatorio el cual se puede ver en la imagen donde sube y baja en forma senoidal.
 
 # 5. Conclusiones.
 
