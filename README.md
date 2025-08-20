@@ -56,28 +56,29 @@ En cuanto a la función de probabilidad, primero se obtuvo una probabilidad de 0
 <img width="921" height="457" alt="image" src="https://github.com/user-attachments/assets/df43bb42-599d-48ab-a4c6-e67f91dae86b" />
 
 
-a. Media de la señal 
+- Media de la señal:
 La media obtenida en ambas metodologías  fue cercana a -0.203 mV, lo que indica un valor de línea base ligeramente negativo, característico de un ECG. Esta coincidencia entre métodos valida la precisión de los cálculos realizados, aunque se observó una mínima, atribuible al redondeo en el procesamiento. 
 Tengamos en cuenta que la media es necesaria para saber el valor promedio de todos los puntos de la señal 
 
-b. Desviación estándar 
+- Desviación estándar:
 La desviación estándar  refleja una baja dispersión en los datos, donde las amplitudes tienden a concentrarse alrededor de la media. La consistencia entre ambos métodos confirma la estabilidad de la señal analizada, sin presencia de ruido significativo que altere su variabilidad.  
  La desviacion estandar se saca teniendo en cuenta la media  y saber cuanto se dispersan alrededor de la misma, nos ayuda a saber la variabilidad de la señal entre mas pequeña sea sugiere estabilidad y entre mas lata puede idicar porca estabilidad o mayor ruido.
 
-c. Coeficiente de variación 
+- Coeficiente de variación:
 El coeficiente de variación -0.6030 confirma el parecido de los datos, pese al signo negativo, que surge de la relación entre una desviación estándar positiva y una media negativa. Este valor, similar en ambosdatos.  
 El coeficiente de variacion nos ayuda a comparar la dispersion de señales con distintas escalas y asi poder "nrmalizar" la variabilidad.
 
-d. Histogramas  
+- Histogramas:  
 Primer método: Mostró un pico de frecuencia anómalamente alto 1400 Hz en -0.2 mV, sugiriendo un posible error en la discretización de los datos.  
 Funciones de Python: Corrigió y  redujo el pico a 600 Hz en la misma amplitud, lo que se ajusta mejor a la distribución esperada en un ECG. Esta discrepancia resalta la importancia de usar librerías optimizadas para evitar sesgos en la representación gráfica.  
 En este pordemos ver el grafico que muestra la frecuencia de las amplitudes de la señal en intervalos, esto nos revela la distribucion de los datos.
 
-e. Curtosis 
+- Curtosis:
 La curtosis calculada 23.7665 indicaba una distribucióncon picos muy agudos, mientras que el valor corregido por Python 20.7665 . Esto sugiere que la señal tiene una concentración pronunciada de datos alrededor de la media, sin interferencias mayores.   
 En este caso la curtosis con un pico agudo sugiere dos concentraciones cerca d ela media, mientras que un pico bajo indica ruido.
 
-f. Función de probabilidad  
+- Función de probabilidad:
+  
 Cálculo inicial: se muestra  una probabilidad de 0.4 en -0.2 mV, lo que podría interpretarse como una densidad relativa no normalizada.  
 Función de Python: Mostró un valor de 6 en la misma amplitud, indicando una densidad de probabilidad absoluta más precisa. Esta diferencia subraya la ventaja de usar funciones especializadas para estimar distribuciones, evitando interpretaciones erróneas.  
 En la funcion de probabilidad permite identificar amplitudes críticas  y detectar anomalías.
